@@ -95,12 +95,12 @@ body{
 
 }
 
-.main-section-content{
+.content-side{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 32px;
+    gap: 40px;
 
     position: absolute;
     width: 663px;
@@ -124,7 +124,7 @@ body{
     flex-grow: 0;
 }
 
-.main-section-content p{
+.content-side p{
     width: 207px;
     height: 28px;
 
@@ -134,7 +134,7 @@ body{
     font-size: 20px;
 }
 
-.main-section-content h1{
+.content-side h1{
     width: 663px;
     height: 188px;
     
@@ -146,7 +146,7 @@ body{
     
 }
 
-.main-section-content h2{
+.content-side h2{
     width: 663px;
     height: 68px;
 
@@ -177,100 +177,167 @@ button{
     border-bottom: 1px solid #36392D;
 }
 
-.offer-cards{
+.who-are-we{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+
+    position: absolute;
+    width: 1462px;
+    height: 719px;
+    left: 229px;
+    top: 906px;
+}
+
+.who-are-we img{
+    width: 719px;
+    height: 719px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 24px;
-
-    position: absolute;
-    width: 1920px;
-    height: 289px;
-    left: 0px;
-    top: 904px;
-    overflow-y: scroll;
-}
-
-.offer-cards-item{
-   
-    width: 719px;
-    height: 289px;
-
-    background: #FFF3DF;
-    border-radius: 24px;
-
-    flex: none; 
-    order: 0;
-    flex-grow: 0;
-}
-
-.card-img{
-    position: absolute;
-    width: 272px;
-    height: 289px;
-    left: 447px;
-    top: 0px;
-}
-
-.offer-heading{
-    box-sizing: border-box;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px 40px 8px 0px;
-    gap: 8px;
-
-    position: absolute;
-    width: 241px;
-    height: 78px;
-    left: 40px;
-    top: 40px;
-    order: 1;
-    border-bottom: 1px solid #36392D;
-}
-
-.offer-heading p{
-    width: 201px;
-    height: 62px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 130%;
-   
-    color: #36392D;
-
+    row-gap: 40px;
+    
+    width: 663px;
+    height: 380px;
+    
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-#offer-description{
-    position: absolute;
-    width: 375px;
-    height: 63px;
-    left: 40px;
-    top: 134px;
+.who-are-we h1{
+    width: 663px;
+    height: 94px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 72px;
     line-height: 130%;
 
-    color: #36392D;
+    color: #D40000;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
-#card-btn{
+
+.who-are-we h2{
+    width: 663px;
+    height: 170px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+   
+    color: #36392D;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bestsellers h1{
     position: absolute;
-    width: fit-content;
-    height: 36px;
-    left: 40px;
-    top: 213px;
-    background-color: #fff3df;
+    width: 396px;
+    height: 94px;
+    left: calc(50% - 396px/2);
+    top: 1785px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 130%;
+ 
+    color: #D40000;
+}
+
+#bestsellers-img1{
+    position: absolute;
+    width: 422px;
+    height: 633px;
+    left: 80px;
+    top: 1959px;
+}
+
+#bestsellers-img2{
+    position: absolute;
+    width: 422px;
+    height: 632px;
+    left: 749px;
+    top: 1960px;
+}
+
+#bestsellers-img3{
+    position: absolute;
+    width: 422px;
+    height: 633px;
+    left: 1418px;
+    top: 1959px;
+}
+
+#bestsellers-img4{
+    position: absolute;
+    width: 422px;
+    height: 633px;
+    left: 526px;
+    top: 2632px;
+}
+
+#bestsellers-img5{
+    position: absolute;
+    width: 422px;
+    height: 633px;
+    left: 972px;
+    top: 2632px;
+}
+
+.blogs{
+    position: absolute;
+    width: 1920px;
+    height: 944px;
+    left: 0px;
+    top: 3425px;
+
+    background: #FFF3DF;
+}
+
+.blogs h1{
+    position: absolute;
+    width: 493px;
+    height: 94px;
+    left: 229px;
+    top: 80px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 130%;
+   
+    color: #D40000;
+}
+
+.blogs button{
+    position: absolute;
+    left: 1598px;
+    top: 109px;
+    background-color: #FFF3DF;
+
 }

@@ -1,0 +1,170 @@
+ <section class="offer-cards">
+
+      <div class="offer-cards-item1">
+        
+        <div class="offer-heading">
+          <p>Refer a Friend, Get a Discount!</p>
+        </div>
+        <p id="offer-description">If the referral results in a purchase, the customer who referred the friend receives a discount on their next purchase.</p>
+        <button id="card-btn">Learn More</button>
+        <img class="card-img" src="images/card1.svg">
+        
+      </div>
+
+      <div class="offer-cards-item2">
+        
+        <div class="offer-heading">
+          <p>Refer a Friend, Get a Discount!</p>
+        </div>
+        <p id="offer-description">If the referral results in a purchase, the customer who referred the friend receives a discount on their next purchase.</p>
+        <button id="card-btn">Learn More</button>
+        <img class="card-img" src="images/card1.svg">
+        
+      </div>
+
+      <div class="offer-cards-item3">
+        
+        <div class="offer-heading">
+          <p>Refer a Friend, Get a Discount!</p>
+        </div>
+        <p id="offer-description">If the referral results in a purchase, the customer who referred the friend receives a discount on their next purchase.</p>
+        <button id="card-btn">Learn More</button>
+        <img class="card-img" src="images/card1.svg">
+        
+      </div>
+   
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+.offer-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1920px;
+    height: 289px;
+    left: 0px;
+    top: 904px;
+    overflow-y: scroll;
+}
+
+.offer-cards-item1{
+   
+    width: 719px;
+    height: 289px;
+
+    background: #FFF3DF;
+    border-radius: 24px;
+
+    flex: none; 
+    order: 0;
+    flex-grow: 0;
+}
+
+.offer-cards-item2{
+   
+    width: 719px;
+    height: 289px;
+
+    background: #FFF3DF;
+    border-radius: 24px;
+
+    flex: none; 
+    order: 1;
+    flex-grow: 0;
+}
+
+.offer-cards-item3{
+   
+    width: 719px;
+    height: 289px;
+
+    background: #FFF3DF;
+    border-radius: 24px;
+
+    flex: none; 
+    order: 2;
+    flex-grow: 0;
+}
+
+.card-img{
+    position: absolute;
+    width: 272px;
+    height: 289px;
+    left: 447px;
+    top: 0px;
+}
+
+.offer-heading{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 40px 8px 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 241px;
+    height: 78px;
+    left: 40px;
+    top: 40px;
+    order: 1;
+    border-bottom: 1px solid #36392D;
+}
+
+.offer-heading p{
+    width: 201px;
+    height: 62px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+   
+    color: #36392D;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#offer-description{
+    position: absolute;
+    width: 375px;
+    height: 63px;
+    left: 40px;
+    top: 134px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+
+    color: #36392D;
+}
+
+#card-btn{
+    position: absolute;
+    width: fit-content;
+    height: 36px;
+    left: 40px;
+    top: 213px;
+    background-color: #fff3df;
+}
