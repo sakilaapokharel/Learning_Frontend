@@ -71,5 +71,47 @@ nav{
 }
 
 main{
-    padding: 120px;
+    height: 100%;
+}
+
+.hero-image {  
+    background-image: url("Images/bg-img.png");
+    height: 459px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.button{
+    background-color: #DF7327;
+    color: #F9FAFB;
+    border: none;
+    padding: 16px 24px 16px;
+    border-radius: 4px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.contact p{
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.contact h2{
+    font-size: 20px;
+    line-height: 20px;
 }
