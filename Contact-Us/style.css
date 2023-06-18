@@ -111,17 +111,15 @@ main{
     color: #fff;
 }
 
-.contact{
-    
-}
 
-.container{
+.contact{
     width: fit-content;
     height: fit-content;
     padding: 120px 262px;
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    gap: 166px;
 }
 
 .contact-info{
@@ -130,6 +128,7 @@ main{
     flex-direction: column;
     padding: 80px 40px;
     gap: 40px;
+    height: fit-content;
 }
 
 .icons{
@@ -139,17 +138,34 @@ main{
 }
 
 .contact-item{
-    gap: 12px;px;
+    gap: 12px;
     display: flex;
     flex-direction: column;
 }
 
-.contact p{
+.contact-item p{
     font-size: 16px;
     line-height: 16px;
 }
 
-.contact h2{
+.contact-item h2{
     font-size: 20px;
     line-height: 20px;
+}
+
+.contact-form{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.contact-form h1{
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.contact-form p{
+    font-size: 20px;
+    line-height: 28px;
 }
