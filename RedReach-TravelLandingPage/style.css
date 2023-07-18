@@ -1,0 +1,435 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #E1EFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon-and-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+top, .left, .right, nav ul, nav{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+top, nav{
+    padding: 8px 200px;
+    justify-content: space-between;
+    border-bottom: 1px #E1EFFF;
+}
+
+button{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.red-button{
+    background-color: #EE4949;
+    color: #E1EFFF;
+    border: none;
+    padding: 8px 16px;
+    height: fit-content;
+}
+
+.blue-button{
+    background-color: #E1EFFF;
+    color: #021327;
+    padding: 16px;
+    border: none;
+    height: fit-content;
+}
+
+li{
+    list-style: none;
+}
+
+header, hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #021327;
+    color: #E1EFFF;
+}
+
+.search{
+    background-color: #021327;
+    border: 1px solid #E1EFFF;
+    padding: 8px 80px 8px 16px;
+    height: fit-content;
+}
+
+.search span{
+    color: #E1EFFF;
+    opacity: 0.5;
+}
+
+header h1{
+    font-size: 80px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.hero{
+    position: relative;
+}
+
+.searchBar{
+    position: absolute;
+    bottom: 0px;
+    color: #E1EFFF;
+    background-color: #EE4949;
+    padding: 24px 24px 12px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 4px;
+    border-top: 1px solid #E1EFFF;
+    border-right: 1px solid #E1EFFF;
+    border-left: 1px solid #E1EFFF;
+    }
+
+.searchBar h1{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.searchspace{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.searchbar-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.searchfillup{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchformfield{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    gap: 16px;
+    border-bottom: 1px solid #E1EFFF;
+}
+
+
+
+/* Main CSS */
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.popular-destinations{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.heading p{
+    width: 550px;
+    text-align: center;
+}
+
+.destination-card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background-color: #ffffff;
+}
+
+.destination-card h1{
+    font-size: 18px;
+    color: #EE4949;
+}
+
+.destination-card h2{
+    font-size: 24px;
+    color: #EE4949;
+    text-align: right;
+}
+
+.destination-card .price{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.specifications{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.ghost{
+    padding: 16px;
+    height: fit-content;
+    border: 1px solid #EE4949;
+    background-color: #ffffff;
+}
+
+.cardrow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-buttons button{
+    width: 100%;
+    height: 100%;
+}
+
+.showall{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold ;
+}
+
+/* Trip Categories CSS*/
+
+.tripcategories{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #021327;
+    color: #E1EFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.tripcardrow{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-self: center;
+}
+
+.tripcard{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.tripcard img{
+    border-radius: 200px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.content .price{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.content h1{
+    color: #EE4949;
+}
+
+.content .price p{
+    font-size: 12px;
+}
+
+.recommended-for-you{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.youtube-embed, .testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+.testimonial-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.profile-details h1{
+    font-size: 16px;
+}
+
+.profile-info p{
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.review2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 496px;
+    padding: 16px 24px;
+    background-color: #ffffff;
+}
+
+.review1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 496px;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+.review3{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 496px;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    
+}
+
+.blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #021327;
+    color: #E1EFFF;
+    padding: 80px 200px 80px 200px;
+    
+}
+
+.blog-group{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+.blog-item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px;
+    background-color: #ffffff;
+    color: #021327;
+    border-radius: 4px;
+}
+
+.blog-heading h1{
+    font-size: 18px;
+}
+
+.blog-heading p{
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.blog-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+}
+
+.blog-item button{
+    max-width: fit-content;
+    align-self: center;
+}
+
+footer{
+    background-color: #EE4949;
+    color:#E1EFFF;
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;   
+    align-items: center;
+}
+
+.links a{
+    color: #E1EFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.links h1{
+    font-size: 24px;
+}
