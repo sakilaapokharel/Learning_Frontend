@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root{
+    --white: #FAF8ED;
+    --dark: #101618;
+    --yellow: #F7E09F;
+    --bright-green: #E7E9E2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior:smooth;
+    color: var(--dark);
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.btn{
+    background-color: var(--bright-green);
+    border: 1px solid var(--dark);
+    font-size: 16px;
+    padding: 8px 16px ;
+    cursor: pointer;
+    color: var(--dark);
+}
+
+.btn:hover{
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+
+h1{
+    font-size: 40px;
+    color: var(--white);
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    color: var(--dark);
+}
+
+h3{
+    font-size: 20px;
+}
+
+h6{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* Header CSS*/
+
+header{ 
+    padding: 0px 120px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(images/banner.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 96px;
+    width:  200px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--yellow);
+}
+
+header .content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+header .content p{
+    color: var(--white);
+    text-align: center;
+}
+
+/* Main CSS*/
+
+main{
+    background-color: var(--white);
+}
+
+
+/* About Us */
+
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 120px 40px 120px;
+    gap: 80px;
+    max-width: 100%;
+    max-height: fit-content; 
+    align-items: center;
+}
+
+.aboutus img{
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.aboutus .content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 50%;
+}
+
+/* Menu Section */
+
+.menu p, .team p{
+    width: 570px;
+    text-align: center;
+}
+
+.menu, .team{
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    max-width: 100%;
+}
+
+.menu-items-group, .team-group{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.menu-item, .team-item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.menu h3, span, .team h3{
+    text-align: center;
+}
+
+/* Our Team and Events Section */
+
+.team{
+    background-color: var(--bright-green);
+}
+
+.events{
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    height: 400px;
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--bright-green);
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+footer .navbar a{
+    color: var(--dark);
+}
+
+
+
+
+
+/* menu.html Css */
+
+.menuheader{ 
+    padding: 0px 120px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(images/menu-banner.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    max-height: 728px;
+    position: relative;
+}
+
+/* Contact Us Page CSS */
+
+.contactheader{
+    padding: 0px 120px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(images/contact-banner.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    max-height: 728px;
+    position: relative;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 200px;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.contact-form{
+    background-color: var(--bright-green);
+    padding: 40px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 72vh;
+    border-radius: 4px;
+}
+
+.form-control{
+        text-align: left;
+        margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input, .form-control textarea {
+            border: 1px solid var(--yellow);
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 8px;
+            display: block;
+            width: 95%;
+}
+
+
+/* Media Query */
+
+@media (max-width:1560px){
+    h1{
+        font-size: 32px;
+        color: var(--white);
+    }
+    
+    h2{
+        font-size: 24px;
+        color: var(--dark);
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+
+    h6{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    header{
+        padding: 0px 120px;
+    }
+
+    .aboutus{
+        padding: 80px 120px;
+    }
+
+    .menu{
+        padding: 0px 80px 40px 80px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        height: 280px;
+    }
+}
+
+@media (max-width:920px){
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 40px;
+        gap: 24px;
+        max-width: 100%; 
+        align-items: center;
+    }
+
+    .aboutus img{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    
+    .aboutus .content{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 100%;
+    }
+
+    .menu p{
+        width: 400px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        height: 640px;
+    }
+
+    .events{
+        padding: 40px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .menu-items-group, .team-group{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        align-items: center;
+        gap: 24px;
+    
+    }
+}
